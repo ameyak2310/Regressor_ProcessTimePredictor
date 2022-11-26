@@ -6,3 +6,4 @@ This is a meta analysis of 90 research articles publish on grape drying kinetics
 ## Contents
 - Data Aquisition
 - Exploratory Data Analysis
+- Multi-Linear Regression by OLS
