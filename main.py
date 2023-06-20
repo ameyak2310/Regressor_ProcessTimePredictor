@@ -1,5 +1,5 @@
 """ 
-Flask app to serve churn model.
+Flask app to serve precess time prediction model.
 """
 
 # Libraries
