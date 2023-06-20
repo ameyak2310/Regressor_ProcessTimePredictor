@@ -13,10 +13,12 @@ from src.prediction import prediction
 
 app = Flask("preocesstime")
 
+# Loading Model
 with open("bin/reg_rf.bin", "rb") as f_in:
     """Loads encoder and model from binaries"""
     model = pickle.load(f_in)
 
+# Loading Encoder
 with open("bin/enc.bin", "rb") as f_in:
     """Loads encoder and model from binaries"""
     enc = pickle.load(f_in)
